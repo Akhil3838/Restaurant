@@ -1,0 +1,430 @@
+*{
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    box-shadow: 3px 1px 2px 3px;
+    background-image:url(./images/pink5.jpg) ;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+     box-shadow: 3px 1px 2px 3px; 
+    height: 100px;
+    width: 100%;
+    /* margin-left: 10px; */
+    background-image:url(./images/pink5.jpg) ;
+}
+.navbar ul{
+    display: inline;
+    list-style: none;
+    display: flex;
+    margin-right: 60px;
+    margin-top: 40px;
+       
+}
+ul li{
+    
+    margin: 6px 30px;
+    
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.img1{
+    margin-left: 20px;
+}
+.btn{
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: -19px;
+    
+}
+.link:hover{
+    color: white;
+}
+.btn:hover{
+    background-color: palevioletred;
+    color: black;
+}
+#mainw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    height: 600px;
+    background-image: url(./images/pink5.jpg);
+    
+}
+.heading{
+    margin-top: 19px;
+}
+.heading h1{
+    font-size: 75px;
+    color: linear-gradient(red, yellow);
+    margin-left: px;
+    text-shadow: 3px 3px red;
+    font-weight: 900;
+
+}
+.heading span{
+    margin-left: 230px;
+}
+#img2{
+  margin-top: -150px;
+  margin-left: 290px;
+  
+}
+.special{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.menu1{
+    background-color: 
+    rgb(23, 20, 22);
+    width: 155px;
+    height: 155px;
+    border-color: black;
+    border-radius: 50%;
+    transition: trnsform .2s;
+}
+.menu1 img{
+    border-radius: 50%;
+    
+}
+.menu1 :hover{
+    
+    width: 160px;
+    height: 160px
+}
+.b{
+    margin-left: 80px;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.c{
+    margin-top: 10px;
+}
+.c span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.input{
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+   
+}
+.input i{
+   color: rgb(46, 2, 4);
+   width: 50px;
+}
+
+.input input{
+    width: 600px;
+    height: 50px;
+    padding-left: 250px;
+    font-size: 20px;
+    border-radius: 30px ;
+    background-color: transparent;
+    border-color: rgb(13, 12, 12);
+    box-shadow: 1px 1px 1px 1px;
+
+}
+.input input:hover{
+    background-color: white;
+}
+.box{
+    background-color:transparent;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 360px;
+    height: 350px;
+    text-align: center;
+    border-width: 10px;
+    border-color: rgb(9, 1, 1);
+    
+}
+.box:hover{
+    background-color: rgba(255, 255, 255, 0.322);
+}
+.boxmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1{
+    margin-top: 25px;
+   
+}
+.card1 img{
+    border-radius: 10px;
+    transition: transform .2s;
+    
+}
+.card1 img:hover{
+    width:303px ;
+    height: 223px;
+   
+}
+ h4{
+    font-style: 100px;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+.btn1 button{
+    margin-top: 10px;
+    background-color: rgb(10, 1, 1);
+    width: 90px;
+    height: 40px;
+    border-radius: 10%;
+    color: white;
+}
+.btn1 button:hover{
+    background-color: white;
+    color: black;
+}
+#more {
+    text-align: center;
+    margin-top: 23px;
+    margin-right: 58PX;
+
+}
+#more button{
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(10, 10, 10);
+    background-color: transparent;
+    border-radius: 5px;
+}
+#more button:hover{
+    background-color: black;
+    color: white;
+}
+.box1{
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 360px;
+    height: 200px;
+    text-align: center;
+    border-width: 10px;
+    border-color: rgb(9, 1, 1);
+    background-color:transparent;
+}
+.card2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.card2 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.p1{
+    margin-top: 20px;
+    
+}
+
+#re1{
+    text-align: center;
+    margin-top: 22px;
+    padding-top: 10px;
+    color: white;
+    margin-right: 35px;
+}
+.re{
+    background-color: rgba(9, 9, 9, 0.215);
+    height: 50px;
+
+}
+#banner{
+    background-color: rgb(158, 192, 204);
+    height: 250px;
+    width: 1453px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-color: white;
+    animation: colorchange 5s infinite;
+    
+}
+#banner img{
+    border-radius: 20px;
+}
+@keyframes colorchange{
+    0% {background-color: rgb(127, 168, 143);}
+    25%{background-color: rgb(185, 170, 151);}
+    75%{background-color: rgb(171, 138, 161);}
+    100%{background-color: rgb(104, 114, 123);}
+}
+#end{
+    background-color: rgba(122, 206, 168, 0.248);
+    
+}
+.booking{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+.bookh{
+    text-align: center;
+    background-color: rgba(9, 9, 9, 0.215);
+    height: 50px;
+}
+.bookh h1{
+    margin-top: 100px;
+    color: white;
+    padding-top: 10px;
+}
+#img9{
+    width: 370px;
+    height: 370px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(208, 215, 215, 0);
+    border-radius: 20px;
+    
+}
+#img9:hover{
+    background-color: rgba(250, 249, 250, 0.316);
+}
+#img9 img{
+    margin-top: 35px;
+    border-radius: 50%;
+    margin-left: 30px;
+        
+}
+#iw{
+    margin-top: 17px;
+    margin-left: -150px;
+}
+#me{
+    margin-top: 20px;
+}
+.inpb {
+    display: grid;
+    width: 370px;
+    height: 370px;
+    border: 1px solid rgb(7, 7, 7);
+    margin-left: 100px;
+    border-radius: 20px;
+    
+}
+.inpb:hover{
+    background-color: rgba(255, 255, 255, 0.34);
+}
+.inpb h3{
+       text-align: center;
+       margin-top: 50px;
+}
+.inpb span{
+    text-align: center;
+    color: rgb(74, 22, 61);
+    margin-top: -40px;
+}
+.inpb input{
+      width: 80%;
+      height: 70%;
+      margin-left: 30px;
+      border-radius: 15px;
+      text-align: center;
+      margin-top: -50px;
+      background-color: rgba(255, 255, 255, 0.385);
+}
+.inpb button{
+    width: 50%;
+    height: 50%;
+    margin-left: 85px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;    
+}
+
+.fn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: rgba(74, 37, 61, 0.316);
+    height: 200px;
+}
+.gim3{
+    margin-left: -350px;
+}
+.gim3 h2{
+    color: rgb(20, 19, 16);
+}
+.gim3{
+    padding-left: 310px
+}
+.gim3 h4{
+    color: rgb(112, 104, 104);
+}
+.gim4{
+    margin-top: 73px;
+}
+.gim4 h2{
+    margin-left: 330px;
+    margin-top: -110px;
+    color: rgb(12, 12, 11);
+}
+.i5{
+    margin-left: 270px;
+    margin-top: 30px;
+}
+.i5 i{
+    margin-left: 30px;
+    color: rgb(79, 69, 69);
+}
+.i5 i:hover{
+    color: rgb(15, 9, 13);
+    
+}
+.gim5 {
+    margin-left: 200px;
+}
+.gim5 h2{
+    color: rgb(13, 13, 12);
+}
+.gim5 h4{
+    color: rgb(90, 85, 85);
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
